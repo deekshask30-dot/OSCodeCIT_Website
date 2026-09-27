@@ -242,14 +242,23 @@ export default function Hero() {
                 text-white
               "
             >
-              <span className="block text-white">
+              <span className="
+                 text-5x1
+                font-white
+                leading-[0.98]
+                tracking-[-0.045em]
+                sm:text-6xl
+                lg:text-[4.15rem]
+                xl:text-[4.6rem]
+                "
+                >
                 Open Source.
               </span>
 
               <span
                 className="
-                  block
-                  text-white
+                block
+                text-white
                 "
               >
                 Real Engineering.
@@ -259,8 +268,7 @@ export default function Hero() {
                 className="
                   block
                   text-white
-                  
-                "
+               "
               >
                 Zero Boundaries.
               </span>
